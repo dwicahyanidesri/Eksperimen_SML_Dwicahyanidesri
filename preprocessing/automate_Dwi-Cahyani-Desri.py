@@ -1,28 +1,3 @@
-"""
-automate_Dwi-Cahyani-Desri.py
-==============================
-Script otomatisasi preprocessing dataset Diabetes Prediction.
-Konversi dari notebook eksperimen: Eksperimen_Dwi-Cahyani-Desri.ipynb
-
-Dataset  : Diabetes Prediction Dataset (Kaggle)
-Author   : Dwi Cahyani Desri
-Version  : 2.0.0
-
-Cara pakai:
-    python automate_Dwi-Cahyani-Desri.py
-    python automate_Dwi-Cahyani-Desri.py --input data/diabetes_prediction_raw.csv
-    python automate_Dwi-Cahyani-Desri.py --input data/diabetes.csv --output data/processed --test-size 0.2
-
-Tahapan preprocessing (sesuai notebook eksperimen):
-    5.1 Menghapus atau Menangani Data Kosong (Missing Values)
-    5.2 Menghapus Data Duplikat
-    5.3 Normalisasi atau Standarisasi Fitur
-    5.4 Deteksi dan Penanganan Outlier
-    5.5 Encoding Data Kategorikal
-    5.6 Binning (Pengelompokan Data)
-    5.7 Split Data & Simpan Hasil Preprocessing
-"""
-
 import os
 import argparse
 import logging
